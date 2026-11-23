@@ -671,11 +671,12 @@ VALUES ↓
 }
 
 .values__list  {
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     max-width: none;
     flex-direction: row;
-    margin-left: 0px;
-    margin-right: 0px;
+    
 }
 
 
@@ -709,7 +710,7 @@ VALUES ↓
 .value__img--wrapper  {
     border-radius: 50%;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     width: 36px;
     height: 36px;
