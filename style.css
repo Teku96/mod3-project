@@ -703,7 +703,7 @@ VALUES ↓
     background-color: #9ae6b4;
 }
 
-.value:nth-color(2) .value__img--wrapper  {
+.value:nth-child(2) .value__img--wrapper  {
     background-color: #feb2b2;
 }
 
@@ -745,7 +745,7 @@ PRICING ↓
 }
 
 #pricing .section__para  {
-    max-width: 576;
+    max-width: 576px;
     text-align: center;
 }
 
@@ -757,7 +757,7 @@ PRICING ↓
     max-width: 24rem;
     flex-direction: column;
     border-radius: 0.5rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255);
     padding-left: 2rem;
     padding-right: 2rem;
     margin-right: 2rem;
@@ -868,7 +868,7 @@ PRICING ↓
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button  {
     color: #f7fafc;
-    background: linear-gradient (
+    background: linear-gradient(
         115deg,
         rgb(56, 178, 172) 0%,
         rgb(129, 230, 217) 100%
@@ -876,7 +876,7 @@ PRICING ↓
 }
 
 .plan:nth-child(2)  {
-    background: linear-gradient  (
+    background: linear-gradient(
         135deg,
         rgb(76, 81, 191) 0%,
         rgb(102, 126, 234) 100%
@@ -888,7 +888,7 @@ PRICING ↓
     background-color: #f7fafc;
 }
 
-.plan:nth-child(2) .plan__stripe  {
+.plan:nth-child(2) .plan__stripes  {
     visibility: hidden;
 }
 
